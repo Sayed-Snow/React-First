@@ -9,8 +9,8 @@ const CardList = ({robots}) => {
         <Card 
             key = {i} 
             id ={robots[i].id} 
-            email ={robots[i].email} 
             name ={robots[i].name}
+            email ={robots[i].email} 
             />
     )})}
 </div>
